@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #f5eec2 ;
+    font-family: sans-serif;
+}
+
+.title-box{
+    text-align: center;
+    margin: 100px auto 50px;
+}
+.title-box p{
+    margin: 10px;
+    line-height: 25px;
+}
+
+.profile-box{
+    width: 250px;
+    height: 250px;
+    background:  #a9c25d;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 10px 10px 10px rgba(115, 193, 255, 0.3);
+    position: relative;
+}
+
+.profile-box img{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+
+}
+
+.profile-box h4{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #2196f3;
+}
+
+small{
+    color: #555;
+}
+
+.social-box{
+    background: #2196f3;
+    margin: 60px auto 20px;
+    text-align: center;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.social-box .fa{
+    margin: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+ span{
+    text-align: center;
+    color: #555;
+    
+
+}
+
+.team-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+.profile-box img:hover{
+    width: 250px;
+
+
+}
+.profile-box:hover{
+    background: #5bccf6;
+    
+
+}
+
+.social-box .fa:hover{
+    transform: scale(1.5);
+}
+
+.profile-box:hover span{
+    color: #fff;
+
+}
+.profile-box:hover h4{
+    color: #fff;
+}
+.profile-box:hover small{
+    color: #fff;
+}
+
+.social-box:hover{
+    background-color: #f0a04b;
+    transform: scale(1.2);
+}
+
+@media  (max-width: 768px){
+
+    body{
+        background-color: #fff;
+    }
+    .title-box{
+        background-color: #416a59;
+        color: white;
+
+    }
+
+    .team-row{
+        display: flex;
+        justify-content: center;
+        background-color: #e1eedd;
+        flex-wrap: wrap;
+    }
+    .profile-box{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        background-color: #f5eec2;
+        box-shadow: 0 10px 10px 10px ;
+    }
+
+    .profile-box img:hover{
+        width: 200px;
+    
+    
+    }
+
+    .profile-box:hover{
+        background: #943d24;
+        
+    
+    }
+    
+    .social-box .fa:hover{
+        color: black;
+        transform: scale(1.9);
+    }
+    
+    .profile-box:hover span{
+        color: #fff;
+    
+    }
+    .profile-box:hover h4{
+        color: #fff;
+    }
+    .profile-box:hover small{
+        color: #fff;
+    }
+    
+    .social-box:hover{
+        background-color: #fcde67;
+        transform: scale(1.9);
+    }
+
+    
+}
+
